@@ -1,0 +1,51 @@
+
+<html>  
+  <head>  
+        <meta charset="utf-8">  
+        <title>Map</title>  
+  </head> 
+<style>
+		.province {
+		stroke: black;
+		stroke-width: 1px;
+	}
+  
+	.southsea {
+		stroke: black;
+		stroke-width: 1px;
+		fill: #ccc;
+	}
+
+	.valueText {
+		font-family: arial;
+		font-size: 12px;
+		text-anchor: middle;
+	}
+	.point{
+		cursor: pointer;
+	}
+	.map-tooltip{
+		position: absolute;
+		width: 100px;
+		height: auto;
+	}
+	
+	.provinces:hover{
+		fill: red !important;
+	}
+</style>
+<body>
+	<img src="http://sale.jd.com/ja.jsp?utmn=803453451&utmr=&utmp=http%3A%2F%2Fsale.jd.com%2Fm%2Fact%2F7PjEnH4SyqMz1CId.html&guid=ON&jav=html5&pin=-&utmac=MO-J2011-1" />
+	
+	<div id="mymap"  style="width:1000px; height:1000px;"></div>
+<script src="d3.v3.min.js"></script>
+<script src="grace-map.js"></script>
+<script>
+	new GraceMap({id: 'mymap'});
+
+	
+
+</script>
+	
+</body>  
+</html>  
